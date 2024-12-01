@@ -118,7 +118,7 @@ void deleteContact(struct Informations p[], int *c){
            for(i ; i<*c ; i++){
                 p[i] = p[i + 1];
            }
-           *c--;
+           *c = *c - 1;
            printf("\nUser successfully deleted");
         }
     }
